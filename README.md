@@ -6,4 +6,6 @@ RULES FOR RUNS AND NUMBERS( FOR ODD OR EVEN) :- 1. You play with only one hand. 
 When game starts both batsan and baller point their respective hands facing each other simultaneously FOR EACH SECOND.
 The runs that are scored by batsman will be added.
 If the batsman/baller doesnot press any key(point any finger), this will be considered as a dot ball for batsman and for baller- the runs of the batsman is counted. 
-when
+when both batter and baller points the same number of fingers---- Its OUT.
+After Out, the baller must take the bat and OUTSCORE the run of the early batsman by atleast 1 run.
+IF he is out before scoring the target, he looses.
