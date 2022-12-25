@@ -1,4 +1,8 @@
 body {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+   place-items:center;
     height: 100%;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
@@ -9,8 +13,15 @@ body {
 }
 
 
-.player1 img{
-    display: block;
-    height: 1080px;
-    width: 1920px;
+.WelcomeContainer{ 
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    bottom: 50%;
+   display: grid;
+   place-items:center;
+}
+
+.WelcomeContainer li{
+    list-style-type: none;
 }
