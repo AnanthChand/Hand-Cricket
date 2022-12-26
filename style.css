@@ -2,7 +2,7 @@ body {
     margin: 0%;
     padding: 0%;
     display: grid;
-   place-items:center;
+    place-items:center;
     height: 100%;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
@@ -10,13 +10,17 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
+
+/* Welcome Page Starts */
 
 
 .WelcomeContainer{ 
     margin: 0%;
     padding: 0%;
     position: absolute;
+    top: 10%;
     bottom: 50%;
    display: grid;
    place-items:center;
@@ -25,3 +29,36 @@ body {
 .WelcomeContainer li{
     list-style-type: none;
 }
+
+.Titlecard{
+    font-family: 'Kanit', sans-serifs;
+    font-weight: bolder;
+    font-size: 4vw;
+    text-align: center;
+
+}
+
+.Titlecard .GameName{
+    font-size: 6vw;
+}
+
+.TossEntrance{
+    margin-top: 20%;
+    font-family: 'Roboto', sans-serif;;
+
+}
+
+
+/* Welcome Page Ends */
+
+
+
+/* Toss Page starts */
+
+/* Toss Page ends */
+
+
+
+/* Instruction Page Starts */
+
+/* Instruction Page Ends */
