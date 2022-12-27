@@ -2,7 +2,7 @@ body {
     margin: 0%;
     padding: 0%;
     display: grid;
-    place-items:center;
+    place-items: center;
     height: 100%;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
@@ -10,27 +10,27 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
 }
 
 /* Welcome Page Starts */
 
 
-.WelcomeContainer{ 
+.WelcomeContainer {
     margin: 0%;
     padding: 0%;
     position: absolute;
     top: 10%;
     bottom: 50%;
-   display: grid;
-   place-items:center;
+    display: grid;
+    place-items: center;
 }
 
-.WelcomeContainer li{
+.WelcomeContainer li {
     list-style-type: none;
 }
 
-.Titlecard{
+.Titlecard {
     font-family: 'Kanit', sans-serifs;
     font-weight: bolder;
     font-size: 4vw;
@@ -38,13 +38,14 @@ body {
 
 }
 
-.Titlecard .GameName{
+.Titlecard .GameName {
     font-size: 6vw;
 }
 
-.TossEntrance{
+.TossEntrance {
     margin-top: 20%;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    ;
 
 }
 
@@ -63,28 +64,46 @@ body {
 
 
 
-.FullInstructionPage{
+.FullInstructionPage {
     display: flex;
+    flex-direction: row;
 }
 
 
 
-.instructionpannel{
+.instructionpannel {
     text-align: center;
     margin-top: 25px;
+    width: 70%;
 }
 
-.instructionpannel h1{
+.instructionpannel h1 {
     font-family: 'Kanit', sans-serifs;
 }
 
-.instructionpannel .instructionlists{
+
+
+.instructionpannel .instructionlists {
     margin-top: 25px;
 }
 
+.FullInstructionPage .BacktoToss {
+    width: 15%;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    
 
-.FullInstructionPage .fa-solid{
-    width: 25px;
-    height: 25px;
 }
+
+
+.FullInstructionPage .EnterGame {
+    align-self: center;
+    margin-left: 10px;
+    width: 15%;
+    height: 25px;
+
+}
+
 /* Instruction Page Ends */
