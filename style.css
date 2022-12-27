@@ -60,7 +60,31 @@ body {
 
 
 /* Instruction Page Starts */
-.instructionlists{
-    
+
+
+
+.FullInstructionPage{
+    display: flex;
+}
+
+
+
+.instructionpannel{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.instructionpannel h1{
+    font-family: 'Kanit', sans-serifs;
+}
+
+.instructionpannel .instructionlists{
+    margin-top: 25px;
+}
+
+
+.FullInstructionPage .fa-solid{
+    width: 25px;
+    height: 25px;
 }
 /* Instruction Page Ends */
