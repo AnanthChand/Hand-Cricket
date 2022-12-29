@@ -13,7 +13,7 @@ body {
 
 }
 
-/* Welcome Page Starts */
+/* Index Page Starts */
 
 
 .WelcomeContainer {
@@ -55,6 +55,35 @@ body {
 
 
 /* Toss Page starts */
+
+
+.TossArena .player1{
+    width: 720px;
+    height: 720px;
+    background: url("assets/score-1.gif") no-repeat scroll 0% 0% transparent;
+}
+
+.TossArena .computer{
+    width: 720px;
+    height: 720px;
+    background: url("assets/score-5.gif") no-repeat scroll 0% 0% transparent;
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background: black;
+    margin: 0;
+    padding: 0%;
+}
+
+
+
+
+
 
 /* Toss Page ends */
 
