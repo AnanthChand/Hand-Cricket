@@ -56,11 +56,25 @@ body {
 
 /* Toss Page starts */
 
+.tossPage{
+display: flex;
+flex-direction: row;
 
-.TossArena{
+
+}
+
+.tossPage .tipsForToss{
+    width: 25%;
+}
+
+.tossPage .TossArena{
     font-family: 'Kanit', sans-serifs;
-
+width: 50%;
     
+}
+
+.tossPage .MatchPageEnter{
+width: 25%;
 }
 
 .TossArena .tossingarea{
