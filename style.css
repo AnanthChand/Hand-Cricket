@@ -57,16 +57,31 @@ body {
 /* Toss Page starts */
 
 
+.TossArena{
+    font-family: 'Kanit', sans-serifs;
+
+    
+}
+
+.TossArena .tossingarea{
+display: flex;
+flex-direction: row;
+font-family: 'Kanit', sans-serifs;
+}
+
+
+
 .TossArena .player1{
     width: 300px;
     height: 300px;
-    transform: scaleX(-1)
+    transform: scaleX(-1);
+    border-radius: 10px;
 }
 
 .TossArena .computer{
     width: 300px;
     height: 300px;
-    
+    border-radius: 10px;
 
 }
 
