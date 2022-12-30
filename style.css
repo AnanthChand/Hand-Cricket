@@ -65,6 +65,19 @@ flex-direction: row;
 
 .tossPage .tipsForToss{
     width: 25%;
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Kanit', sans-serifs;
+  margin: 0px 10px;
+  font-size: 12px;
+}
+
+.tipsForToss .bulbIcon{
+    margin: 10px 0 15px 0;
+    
+    text-align: center;
 }
 
 .tossPage .TossArena{
