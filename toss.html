@@ -31,6 +31,22 @@
 
 <body>
 
+    <div class="navbar">
+        <h1 class="TossTitle">Toss</h1>
+
+        <div class="tossCoice .bg-dark">
+
+            <h4>Choose either</h4><input type="button" value="ODD" class="odd btn btn-dark TosschoiceBox">
+            <h4>or</h4><input type="button" value="EVEN" class="even btn btn-dark TosschoiceBox">
+            <h4>.</h4>
+            <h8 class="chooseOdd ">You choose odd.</h8>
+            <h8 class="chooseEven ">You choose even.</h8>
+        </div>
+        <h6>RETOSS</h6>
+    </div>
+
+
+
     <div class="tossPage">
         <div class="tipsForToss">
             <i class="fa-regular fa-lightbulb bulbIcon fa-3x"></i>
@@ -42,24 +58,29 @@
         </div>
 
         <div class="TossArena">
-            <h1>Toss</h1>
-            <h4>Choose between ODD or EVEN.</h4>
-            <input type="checkbox" name="Odd" id="Odd">Odd <br>
-            <input type="checkbox" name="Even" id="Even">Even
+
+
+
+
             <div class="tossingarea">
                 <img src="C:\Users\Ananth Chandra\Desktop\PROJECTS OF MY OWN\Beginner Projects\hand cricket\assets\score-0.gif"
                     alt="player1's hand" class="player1">
                 <h2>V/S</h2>
-                <img src="C:\Users\Ananth Chandra\Desktop\PROJECTS OF MY OWN\Beginner Projects\hand cricket\assets\score-1.gif"
+                <img src="C:\Users\Ananth Chandra\Desktop\PROJECTS OF MY OWN\Beginner Projects\hand cricket\assets\score-0.gif"
                     alt="computer's hand" class="computer">
-
             </div>
-            <h4>Its ODD!!</h4>
-            <h1>YOU WON THE TOSS!!!!</h1>
+
+            <div class="tossResult">
+                <h4>Its ODD!!</h4>
+                <h1 class="TossWonMessage">YOU WON THE TOSS!!!!</h1>
+                <h1 class="TossLossMessage">YOU LOST THE TOSS!!!!</h1>
+            </div>
+
         </div>
 
         <div class="MatchPageEnter">
-            <i class="fa-solid fa-trophy fa-3x"></i>
+            <i class="fa-solid fa-award fa-3x"></i>
+            <h1>Play →</h1>
         </div>
     </div>
 
