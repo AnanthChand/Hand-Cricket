@@ -56,7 +56,7 @@ body {
 /* Toss Page starts */
 
 
-.navbar{
+.navbar {
     border: black;
 }
 
@@ -68,7 +68,6 @@ body {
 
 .TossTitle {
     color: white;
-
     font-size: 50px;
     font-family: 'Kanit', sans-serifs;
     margin-left: 100px;
@@ -102,7 +101,7 @@ body {
     display: none;
 }
 
-.tossCoice {
+.tossChoice {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -129,7 +128,7 @@ body {
 }
 
 
-.tossCoice h4 {
+.tossChoice h4 {
     align-self: center;
     color: white;
 }
@@ -215,11 +214,6 @@ body {
     color: white;
 }
 
-
-
-
-
-
 /* Toss Page ends */
 
 
@@ -286,57 +280,31 @@ body {
 
 
 
+/* Game Page Starts */
 
-/* GamePage Starts */
-
-
-.Gamenavbar{
-    border: black;
-}
-
-.GamePage {
+.Gamenavbar {
     display: flex;
     flex-direction: row;
-
 }
 
-.GameTitle {
-    color: white;
 
+.Gamenavbar .GameTitle {
+    color: white;
     font-size: 50px;
     font-family: 'Kanit', sans-serifs;
     margin-left: 100px;
 }
 
 
-.GamePage .tipsForGame {
-    width: 25%;
-    text-align: center;
-    display: flex !important;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Kanit', sans-serifs;
-    margin: 0px 10px;
-    font-size: 12px;
-    color: white;
-}
-
-.tipsForGame .bulbIcon {
-    margin: 10px 0 15px 0;
-    text-align: center;
-}
-
-
-
-.chooseBat {
+.Gamenavbar .chooseBall {
     display: none;
 }
 
-.chooseBall {
+.Gamenavbar .chooseBat {
     display: none;
 }
 
-.GameCoice {
+.Gamenavbar .GameChoice {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -363,7 +331,7 @@ body {
 }
 
 
-.GameCoice h4 {
+.Gamenavbar .GameChoice h4 {
     align-self: center;
     color: white;
 }
@@ -376,6 +344,46 @@ body {
     border-radius: 20px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.GamePage {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+.GamePage .tipsForGame {
+    width: 25%;
+    text-align: center;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Kanit', sans-serifs;
+    margin: 0px 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.tipsForGame .bulbIcon {
+    margin: 10px 0 15px 0;
+    text-align: center;
+}
+
+
+
 
 
 .GamePage .GameArena {
@@ -436,7 +444,7 @@ body {
 
 
 
-.tossPage .MatchPageEnter {
+.GamePage .GameScoreCard {
 
     width: 25%;
     text-align: center;
@@ -449,11 +457,4 @@ body {
     color: white;
 }
 
-
-
-
-
-
-
-
- /* /* GamePage Starts */ 
+/* Game page Ends */
