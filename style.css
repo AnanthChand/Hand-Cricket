@@ -288,33 +288,57 @@ body {
 .GamePage {
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    justify-content: center;
+
 }
 
 .TVlogo {
     display: flex;
     flex-direction: column;
     color: white;
-    justify-items: right;
+    align-self: flex-end;
+    margin: 1%;
+    width: 65px;
+    height: 40px;
+
+}
+
+.TVlogo .logoname {
     
-
-}
-
-.TVlogo img {
-    width: 75px;
-    height: 50px;
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 10px;
+    padding: 3%;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    color: black;
+    font-weight: bolder;
+    
+    justify-content: center;
+
 }
 
+.TVlogo .TV{
+    display: flex;
+    justify-content: center;
+}
 
+.TVlogo .live{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    color: red;
+    display: flex;
+    justify-content:space-evenly;
+    font-weight: bolder;
+}
 
 
 .Gameingarea {
     display: flex;
-    flex-direction: row;
     font-family: 'Kanit', sans-serifs;
-    justify-self: center;
-
+    justify-content: center;
 }
 
 
@@ -326,8 +350,8 @@ body {
 }
 
 .Gameingarea .player1 {
-    width: 300px;
-    height: 300px;
+    width: 30%;
+    height: 30%;
     transform: scaleX(-1);
     border-radius: 10px;
     border: 1px solid #ddd;
@@ -336,8 +360,8 @@ body {
 }
 
 .Gameingarea .computer {
-    width: 300px;
-    height: 300px;
+    width: 30%;
+    height: 30%;
     border-radius: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
