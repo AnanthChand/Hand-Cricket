@@ -157,8 +157,12 @@ body {
     border-radius: 5px;
 }
 
+
+
+
+
 .tossingarea {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     font-family: 'Kanit', sans-serifs;
     justify-self: center;
@@ -171,23 +175,34 @@ body {
 
 
 .TossArena .player1 {
-    width: 300px;
-    height: 300px;
+    width: 300px !important;
+    height: 300px !important;
     transform: scaleX(-1);
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    
 }
 
 .TossArena .computer {
     width: 300px;
     height: 300px;
+    
+}
+.computer h6{
+    color: white;
+}
+
+.player1 h6{
+    transform: scaleX(-1);
+    color: white;
+}
+
+
+.TossArena img{
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-
 }
 
 
@@ -338,6 +353,11 @@ body {
     justify-content: center;
 }
 
+.Gameingarea .OoutMessage{
+    z-index: 10;
+    display: none;
+
+}
 
 .Gameingarea h2 {
     align-self: center;
@@ -367,6 +387,36 @@ body {
 }
 
 
+.PlayingDetails{
+    display: none;
+}
 
+
+.Gamescorecard{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Gamescorecard h4{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Gamescorecard h1{
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+}
 
 /* Game Page ends */
