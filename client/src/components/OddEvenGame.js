@@ -1,5 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import score0 from "./assets/score-0.gif";
+import score1 from "./assets/score-1.gif";
+import score2 from "./assets/score-2.gif";
+import score3 from "./assets/score-3.gif";
+import score4 from "./assets/score-4.gif";
+import score5 from "./assets/score-5.gif";
+import score6 from "./assets/score-6.gif";
 
 export default function OddEvenGame() {
   const [playerChoice, setPlayerChoice] = useState("odd");
@@ -21,19 +28,19 @@ export default function OddEvenGame() {
   let image = null;
 
   if (playerNumber === 0) {
-    image = <img src="/score-0.gif" alt="Image 0" />;
+    image = <img src={score0} alt="Image 0" style={{height:'200px', width:'200px'}}/>;
   } else if (playerNumber === 1) {
-    image = <img src="/score-1.gif" alt="Image 1" />;
+    image = <img src={score1} alt="Image 1"  style={{height:'200px', width:'200px'}}/>;
   } else if (playerNumber === 2) {
-    image = <img src="/score-2.gif" alt="Image 2" />;
-  }else if (playerNumber === 3) {
-    image = <img src="/score-3.gif" alt="Image 3" />;
+    image = <img src={score2} alt="Image 2"  style={{height:'200px', width:'200px'}}/>;
+  } else if (playerNumber === 3) {
+    image = <img src={score3} alt="Image 3"  style={{height:'200px', width:'200px'}}/>;
   } else if (playerNumber === 4) {
-    image = <img src="/score-4.gif" alt="Image 4" />;
-  }else if (playerNumber === 5) {
-    image = <img src="/score-5.gif" alt="Image 5" />;
+    image = <img src={score4} alt="Image 4"  style={{height:'200px', width:'200px'}}/>;
+  } else if (playerNumber === 5) {
+    image = <img src={score5} alt="Image 5"  style={{height:'200px', width:'200px'}}/>;
   } else if (playerNumber === 6) {
-    image = <img src="/score-6.gif" alt="Image 6" />;
+    image = <img src={score6} alt="Image 6"  style={{height:'200px', width:'200px'}}/>;
   }
 
   return (
