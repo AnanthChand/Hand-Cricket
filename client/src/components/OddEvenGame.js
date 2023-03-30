@@ -2,11 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 
-
-
-
-
-function OddEvenGame() {
+export default function OddEvenGame() {
     const [playerChoice, setPlayerChoice] = useState('odd');
     const [playerNumber, setPlayerNumber] = useState(0);
     const [computerNumber, setComputerNumber] = useState(0);
@@ -52,6 +48,7 @@ function OddEvenGame() {
   }
 
 
-  export default OddEvenGame;
+
+
 
   

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import OddEvenGame from './OddEvenGame';
+import OddEvenGame from '../src/components/OddEvenGame';
 
 
 import './App.css';
 
 function App() {
   return (
-<div>Hand Cricket</div>
+<div><OddEvenGame/></div>
   );
 }
 
