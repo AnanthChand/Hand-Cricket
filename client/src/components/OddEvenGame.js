@@ -145,8 +145,8 @@ export default function OddEvenGame() {
   }
 
   return (
-    <div>
-      <h1>Odd or Even Game</h1>
+    <div className="tossPage">
+      <h1>Toss</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Choose odd or even:
@@ -159,6 +159,9 @@ export default function OddEvenGame() {
           </select>
         </label>
         <br />
+        <div className="Tossfield">
+        <div className="playerField">
+        {playerImage}
         <label>
           Your number (0-6):
           <input
@@ -171,8 +174,11 @@ export default function OddEvenGame() {
             }
           />
         </label>
-        {playerImage}
+        
+        </div>
         <br />
+        <div className="computerField">
+        {computerImage}
         <label>
           Computer's number (0-6):
           <input
@@ -183,7 +189,9 @@ export default function OddEvenGame() {
             value={computerNumber}
           />
         </label>
-        {computerImage}
+        
+        </div>
+        </div>
         <br />
         <button type="submit">Play</button>
       </form>
