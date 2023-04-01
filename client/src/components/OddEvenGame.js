@@ -28,6 +28,12 @@ export default function OddEvenGame() {
   let playerImage = null;
   let computerImage = null;
 
+  if (result === "You win!") {
+
+  } else if (result === "You lose!") {
+    
+  }
+
   if (playerNumber === 0) {
     playerImage = (
       <img
@@ -81,6 +87,14 @@ export default function OddEvenGame() {
       <img
         src={score6}
         alt="Image 6"
+        style={{ height: "200px", width: "200px" }}
+      />
+    );
+  } else if (playerImage === null) {
+    playerImage = (
+      <img
+        src={score0}
+        alt="Image 0"
         style={{ height: "200px", width: "200px" }}
       />
     );
@@ -142,11 +156,25 @@ export default function OddEvenGame() {
         style={{ height: "200px", width: "200px" }}
       />
     );
+  } else if (computerNumber === null) {
+    computerNumber = (
+      <img
+        src={score0}
+        alt="Image 0"
+        style={{ height: "200px", width: "200px" }}
+      />
+    );
   }
 
   return (
     <div className="tossPage">
-      <h1>Toss</h1>
+      <h1 className="title">Toss</h1>
+      <p className="tossRules">
+        <span>Rules: </span>At first choose Odd or even. And then, choose your
+        score from 0-6. And click on Toss button. The computer too will choose a
+        number. If the summation of two scores are similar with your choice of
+        odd or even, you win.{" "}
+      </p>
       <form onSubmit={handleSubmit}>
         <label>
           Choose odd or even:
@@ -160,42 +188,40 @@ export default function OddEvenGame() {
         </label>
         <br />
         <div className="Tossfield">
-        <div className="playerField">
-        {playerImage}
-        <label>
-          Your number (0-6):
-          <input
-            type="number"
-            min="0"
-            max="6"
-            value={playerNumber}
-            onChange={(event) =>
-              setPlayerNumber(parseInt(event.target.value, 10))
-            }
-          />
-        </label>
-        
-        </div>
-        <br />
-        <div className="computerField">
-        {computerImage}
-        <label>
-          Computer's number (0-6):
-          <input
-            type="number"
-            min="0"
-            max="6"
-            readOnly
-            value={computerNumber}
-          />
-        </label>
-        
-        </div>
+          <div className="playerField">
+            {playerImage}
+            <label>
+              Your number (0-6):
+              <input
+                type="number"
+                min="0"
+                max="6"
+                value={playerNumber}
+                onChange={(event) =>
+                  setPlayerNumber(parseInt(event.target.value, 10))
+                }
+              />
+            </label>
+          </div>
+          <br />
+          <div className="computerField">
+            {computerImage}
+            <label>
+              Computer's number (0-6):
+              <input
+                type="number"
+                min="0"
+                max="6"
+                readOnly
+                value={computerNumber}
+              />
+            </label>
+          </div>
         </div>
         <br />
         <button type="submit">Play</button>
       </form>
-      <div>{result}</div>
+      <h1>{result}</h1>
     </div>
   );
 }
