@@ -167,7 +167,7 @@ export default function OddEvenGame() {
 
   return (
     <div className="tossPage">
-      <h1 className="title">Toss</h1>
+      <h1 className="Tosstitle">Toss</h1>
       <p className="tossRules">
         <span>Rules: </span>At first choose Odd or even. And then, choose your
         score from 0-6. And click on Toss button. The computer too will choose a

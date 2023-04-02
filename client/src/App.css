@@ -8,7 +8,12 @@ body {
     background-attachment: fixed;
     color: white;
 }
-
+.Tosstitle{
+    font-family: 'Kanit', sans-serifs;
+    font-weight: bolder;
+    font-size: 4vw;
+    
+}
 .tossPage{
     display: flex;
     flex-direction: column;
@@ -45,9 +50,7 @@ body {
     width: 40%;
 }
 
-.title{
-    font-family: 'Kanit', sans-serifs;
-    font-weight: bolder;
-    font-size: 4vw;
-    
-}
+/* Toss Page ends. */
+
+/* Game Page Starts */
+
