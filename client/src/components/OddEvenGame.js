@@ -24,14 +24,13 @@ export default function OddEvenGame() {
       (playerChoice === "even" && isEven) ||
       (playerChoice === "odd" && !isEven);
     setResult(playerWins ? "You win!" : "You lose!");
+    
   }
   let playerImage = null;
   let computerImage = null;
 
   if (result === "You win!") {
-
   } else if (result === "You lose!") {
-    
   }
 
   if (playerNumber === 0) {
@@ -221,7 +220,7 @@ export default function OddEvenGame() {
         <br />
         <button type="submit">Play</button>
       </form>
-      <h1>{result}</h1>
+      <h4>{result}</h4>
     </div>
   );
 }
